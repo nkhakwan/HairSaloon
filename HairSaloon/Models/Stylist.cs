@@ -2,14 +2,14 @@ using System.Collections.Generic;
 
 namespace HairSaloon.Models
 {
-  public class Employee
+  public class Stylist
     {
-        public Employee()
+        public Stylist()
         {
             this.Clients = new HashSet<Client>();
         }
 
-        public int EmployeeId { get; set; }
+        public int StylistId { get; set; }
         public string Skills { get; set; }
         public virtual ICollection<Client> Clients { get; set; }
     }
