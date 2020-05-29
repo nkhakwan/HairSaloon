@@ -16,6 +16,7 @@ _A web site that allows Clair to add clients and Stylists to her Website and als
 4. Run the program with the commands dotnet restore, dotnet build, and dotnet run.
 5. CREATE DATABASE `nauman_khakwani`
 6. Tables: They are included in separate nauman_khakwani.sql file too, present in the root of the directory
+7. 
 CREATE TABLE `clients` (
   `ClientId` int NOT NULL AUTO_INCREMENT,
   `Name` varchar(255) DEFAULT NULL,
@@ -23,7 +24,7 @@ CREATE TABLE `clients` (
   PRIMARY KEY (`ClientId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-
+8. 
 CREATE TABLE `stylists` (
   `StylistId` int NOT NULL AUTO_INCREMENT,
   `Skills` varchar(255) DEFAULT NULL,
