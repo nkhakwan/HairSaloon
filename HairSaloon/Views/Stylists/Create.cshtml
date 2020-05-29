@@ -1,0 +1,14 @@
+@{
+  Layout = "_Layout";
+}
+
+@model HairSaloon.Models.Category
+
+<h4>Add a new stylist</h4>
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.Skills)
+    @Html.TextBoxFor(model => model.Skills)
+    <input type="submit" value="Add new stylist" />
+}
+<p>@Html.ActionLink("Show all stylists", "Index")</p>

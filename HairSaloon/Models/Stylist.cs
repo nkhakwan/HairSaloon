@@ -15,5 +15,3 @@ namespace HairSaloon.Models
     }
 }
 
-
-git commit -m "Client.cs Employee.cs HairSaloonContext.cs Program.cs Startup.cs appsettings.Json and styles.css files. Fully populated"
