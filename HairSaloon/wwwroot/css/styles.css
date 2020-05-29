@@ -1,4 +1,35 @@
 body {
-  margin: 0 auto;
-  max-width: 1200px;
+  background-color: rgb(102, 146, 185);
+  text-align: center;
+  margin: 2%;
+}
+
+h1, h2{
+  color: whitesmoke;
+}
+
+label{
+  color: whitesmoke;
+}
+
+img{
+  border: 10px solid whitesmoke;
+}
+
+a{
+  color: whitesmoke;
+  font-weight: bolder;
+}
+
+.btn {
+  background-color: rgb(170, 210, 240);
+}
+
+.btn:hover {
+  background-color: rgb(58, 103, 158);
+}
+
+a:hover{
+  color: whitesmoke;
+  font-weight: bolder;
 }

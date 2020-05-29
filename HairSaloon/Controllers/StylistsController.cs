@@ -27,7 +27,7 @@ namespace HairSaloon.Controllers
     }
 
     [HttpPost]
-    public ActionResult Create(Stylist Stylist)
+    public ActionResult Create(Stylist stylist)
     {
       _db.Stylists.Add(stylist);
       _db.SaveChanges();
@@ -49,7 +49,7 @@ namespace HairSaloon.Controllers
     [HttpPost]
     public ActionResult Edit(Stylist stylist)
     {
-      _db.Entry(ctylist).State = EntityState.Modified;
+      _db.Entry(stylist).State = EntityState.Modified;
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
