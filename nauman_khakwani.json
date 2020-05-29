@@ -1,9 +1,0 @@
-[{"ClientId":3, "Name":"Greg", "StylistId":1},
- {"ClientId":5, "Name":"aaaa", "StylistId":1},
- {"ClientId":8, "Name":"car", "StylistId":0},
- {"ClientId":9, "Name":"something", "StylistId":0},
- {"ClientId":10, "Name":"Joel the empty pocket", "StylistId":8},
- {"ClientId":11, "Name":"Joe the mercurial", "StylistId":7},
- {"ClientId":12, "Name":"Irv the deciever", "StylistId":7},
- {"ClientId":13, "Name":"Jim the neat", "StylistId":8},
- {"ClientId":14, "Name":"Bill millionaire", "StylistId":9}]
