@@ -64,7 +64,7 @@ namespace HairSaloon.Controllers
     }
 
     [HttpPost, ActionName("Delete")]
-    public ActionResult DeleteConfirmed(int id)
+    public ActionResult DeleteConfirmed(int id) // need to confirm with instructor as specifically "id" was not passed from cshtml
     {
       var thisClient = _db.Clients.FirstOrDefault(clients => clients.ClientId == id);
       _db.Clients.Remove(thisClient);
