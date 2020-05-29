@@ -6,11 +6,13 @@
 
 <h2>Edit</h2>
 
-<h4>Edit this stylist: @Html.DisplayFor(model => model.Skills)</h4>
+<h4>Edit this stylist: @Html.DisplayFor(model => model.StylistName)</h4>
 
 @using (Html.BeginForm())
 {
     @Html.HiddenFor(model => model.StylistId)
+    @Html.LabelFor(model => model.StylistName)
+    @Html.EditorFor(model => model.StylistName)
 
     @Html.LabelFor(model => model.Skills)
     @Html.EditorFor(model => model.Skills)
